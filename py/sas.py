@@ -99,7 +99,6 @@ class SAS:
         sas += sp + "%end;" + "\n"
         return sas
 
-    @staticmethod
     def spaces(self, s):
         l = len(s)
         return ' ' * (l + 1)
